@@ -13,26 +13,30 @@
 
 <body class="body">
 
-    <!-- Page header -->
+    <div class="container">
+
+        <!-- Page header -->
 
     <header class="header">
-        <a href="#" class="header__logo">
-            <p><span>Web</span>Studio</p>
+        <div class="container">
+            <div>
+                <a href="#" class="header__logo">
+                <p><span>Web</span>Studio</p>
+            </div>
         </a>
-        <nav class="header__navigation">
-            <ul>
-                <li><a href="Studio">Studio</a></li>
-                <li><a href="http://127.0.0.1:5500/portofoliu.html">Portfolio</a></li>
-                <li><a href="Contacts">Contacts</a></li>
-            </ul>
-        </nav>
+            <nav class="header__navigation">
+                <ul class="header__navigation__list">
+                    <li><a href="./index.html">Studio</a></li>
+                    <li><a href="./portofoliu.html">Portfolio</a></li>
+                    <li><a href="Contacts">Contacts</a></li>
+                </ul>
+            </nav>
 
             <div class="header__info">
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </div>
-            <div class="header__info">
                 <a href="tel:+1212-772-4150">+1212-772-4150</a>
             </div>
+        </div>
     </header>
 
     <!--Main section-->
@@ -43,7 +47,7 @@
 
         <section class="title-section">
             <h1 class="title-section__text">EFFECTIVE SOLUTIONS FOR<br>YOUR BUSINESS</h1>>
-            <button class=title-section__button type="button">Request our service</button>
+            <button class="title-section__button" type="button">Request our service</button>
         </section>
 
         <!--Work ethics section-->
@@ -78,19 +82,22 @@
             
             <!--Container cu poze a activitatii-->
 
-            <div>
+            <div class="activity__pictures">
                 <img 
                 src="./images/box-1.jpg" 
                 alt="hands typing image"
-                width="300">
+                width="370"
+                height="294">
                 <img 
                 src="./images/box-2.jpg" 
                 alt="person connecting phone to computer image"
-                width="300">
+                width="370"
+                height="294">
                 <img 
                 src="./images/box-3.jpg" 
                 alt="holding a tablet showing colors image"
-                width="300">
+                width="370"
+                height="294">
             </div>
             
         </section>
@@ -107,7 +114,8 @@
                     <img 
                     src="./images/christopher-walker.jpg" 
                     alt="christopher walker image"
-                    width="200"
+                    width="270"
+                    height="260"
                     >/
                     <p class="containers__name"><strong>Christopher Walker</strong></p>
                     <p class="containers__function">Product Designer</p>
@@ -116,7 +124,9 @@
                     <img 
                     src="./images/kylie-evans.jpg" 
                     alt="kylie evans image"
-                    width="200">/
+                    width="270"
+                    height="260"
+                    >/
                     <p class="containers__name"><strong>Kylie Evans</strong></p>
                     <p class="containers__function">Frontend Developer</p>
                 </div>
@@ -124,7 +134,8 @@
                     <img 
                     src="./images/ryan-harris.jpg" 
                     alt="ryan harris image"
-                    width="200">/
+                    width="270"
+                    height="260">/
                     <p class="containers__name"><strong>Ryan Harris</strong></p>
                     <p class="containers__function">Marketing</p>
                 </div>
@@ -132,7 +143,8 @@
                     <img 
                     src="./images/tyler-moore.jpg" 
                     alt="tyler moore image"
-                    width="200">/
+                    width="270"
+                    height="260">/
                     <p class="containers__name"><strong>Tyler Moore</strong></p>
                     <p class="containers__function">UI Designer</p>
                 </div>
@@ -145,16 +157,22 @@
     <!--Footer section-->
 
     <footer class="footer">
-        <a href="#" class="footer__logo">
-            <p><span>Web</span>Studio</p>
-        </a>
-        <address class="contact">
-            <span>695 Park Ave, NY 10065, USA</span> 
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+1212-772-4150">+1212-772-4150</a>
-        </address>
+        <div class="basement">
+            <a href="#" class="footer__logo">
+                <p><span>Web</span>Studio</p>
+            </a>
+            <address class="contact">
+                <span>695 Park Ave, NY 10065, USA</span> 
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="tel:+1212-772-4150">+1212-772-4150</a>
+            </address>
+        </div>
+        
 
     </footer>
+
+    
+</div>
 
 </body>
 
