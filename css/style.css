@@ -20,8 +20,7 @@
 .body {
     font-family: var(--font-family);
     background-color: var(--original-white)
-    width: 1200px;
-    height: 1879px;
+    
 }
 
 /* Header styling */
@@ -31,7 +30,7 @@
     
 }
 
-.header .container {
+.header .up {
     display:flex;
     justify-content:space-between;
     height: 80px;
@@ -140,7 +139,6 @@
     line-height: 171%;
     color: var(--grey);
     width: 270px;
-    height: 75px;
     flex-wrap: wrap;
 }
 
@@ -180,7 +178,7 @@
     justify-content: center;
     margin-bottom: 94px;
     gap:30px;
-    
+    box-shadow: 
 }
 
 .containers__name {
@@ -207,6 +205,7 @@
 .footer {
     background-color: var(--dark-grey);
     height: 251px;
+
 }
 
 .footer__logo {
@@ -245,7 +244,11 @@
 
 /* Portfolio page styling */
 
-
+.categories {
+    display:flex;
+    justify-content: center;
+    gap:8px;
+}
 .categories__item {
     background-color: var(--white);
     font-weight: 500;
@@ -253,6 +256,10 @@
     line-height: 26px;
     color: var(--lighter-black)
     cursor: pointer;
+    padding-left:22px;
+    padding-right:22px;
+    padding-top:6px;
+    padding-bottom:6px;
 }
 
 .categories__item:hover {
@@ -260,11 +267,19 @@
     color: var(--original-white);
 }
 
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap:30px;
+}
+
 .cards__names {
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
     color: var(--lighter-black);
+    margin-top: 20px;
 }
 
 .cards__text {
@@ -272,6 +287,8 @@
     font-size: 16px;
     line-height: 187%;
     color: var(--grey);
+    margin-top: 4px;
+    margin-bottom: 20px;
 }
 
 .container {
