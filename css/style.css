@@ -26,7 +26,9 @@
 /* Header styling */
 
 .header {
-    
+   
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 94px;
 }
 
 .header .up {
@@ -308,6 +310,7 @@
     line-height: 200%;
     color: var(--lighter-black);
     margin-top: 20px;
+    padding-left: 24px;
 }
 
 .cards__text {
@@ -317,6 +320,12 @@
     color: var(--grey);
     margin-top: 4px;
     margin-bottom: 20px;
+    padding-left: 24px;
+}
+
+.cards__item {
+    border: 1px solid #eee;
+    margin-bottom: 94px;
 }
 
 .container {
