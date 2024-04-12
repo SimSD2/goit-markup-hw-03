@@ -27,15 +27,16 @@
 
 .header {
     
-    
 }
 
 .header .up {
     display:flex;
     justify-content:space-between;
-    height: 80px;
     align-items: center;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .header__navigation ul {
@@ -49,6 +50,7 @@
     font-size: 26px;
     color: var(--original-black);
     text-decoration-line: none;
+   
 }
 
 
@@ -76,19 +78,27 @@
     font-weight: 500;
     font-size: 14px;
     color: var(--grey);
+    
+    
 }
 .header__info a:hover {
     color: var(--blue);
 }
 
+
+
 /* Main styling */
 
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .title-section {
     background-color: var(--dark-grey);
     padding-top: 200px;
     padding-bottom: 280px;
+    text-align: center;
 }
 
 .title-section__text {
@@ -100,7 +110,7 @@
     color: var(--original-white);
     display:flex;
     justify-content: center;
-    
+    margin-bottom: 30px;
     
 }
 
@@ -112,15 +122,16 @@
     letter-spacing: 0.06em;
     color: var(--original-white);
     cursor: pointer;
-    margin-top: 30px;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 19px;
+    margin-top: 30px;   
 }
 
 .work-ethics {
     list-style: none;
     display:flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
     justify-content:center;
     gap: 30px;
 }
@@ -147,14 +158,14 @@
     font-size: 36px;
     color: var(--lighter-black);
     margin-bottom: 50px;
-    margin-left: 790px;
+    text-align: center;
 }
 
 .activity__pictures {
     display:flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 94px;
+   
 }
 
 .team {
@@ -170,17 +181,21 @@
     font-size: 36px;
     color: var(--lighter-black);
     margin-bottom: 50px;
-    margin-left: 618px;
+    text-align: center;
 }
 
 .containers {
     display:flex;
     justify-content: center;
-    margin-bottom: 94px;
     gap:30px;
-    box-shadow: 
 }
 
+.containers__item {
+    box-shadow:0 2px 1px 0 rgba(0, 0, 0, 0.2),
+               0 1px 1px 0 rgba(0, 0, 0, 0.14), 
+               0 1px 3px 0 rgba(0, 0, 0, 0.12);
+
+}
 .containers__name {
     font-weight: 500;
     font-size: 16px;
@@ -197,6 +212,7 @@
     color: var(--grey);
     margin-left: 63px;
     margin-right: 62px;
+    padding-bottom: 30px;
     
 }
 
@@ -205,6 +221,7 @@
 .footer {
     background-color: var(--dark-grey);
     height: 251px;
+    margin-top: ;
 
 }
 
@@ -214,12 +231,17 @@
     font-size: 26px;
     color: var(--original-white);
     text-decoration-line: none;
+    
  }
 
 .footer__logo span {
     color: var(--blue);
 }
 
+.footer .basement {
+    padding-top: 60px;
+    padding-left: 20px;
+}
 .contact span {
     font-weight: 400;
     font-size: 14px;
@@ -234,12 +256,18 @@
     line-height: 114%;
     color: var(--rgba-mix);
     text-decoration-line: none;
+    
 }
 
 .contact a:hover {
     color: var(--blue)
 }
 
+.contact {
+    display: grid;
+    gap: 12px;
+    padding-top: 28px;
+}
 
 
 /* Portfolio page styling */
@@ -295,4 +323,5 @@
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    
 }
